@@ -31,7 +31,7 @@ public class Main {
         System.out.printf("Input value for %s: ", name);
 
         while (!scanner.hasNextDouble()) {
-            System.out.println("Wrong values for fields. X, e must be double, n must be int");
+            System.out.println("Wrong value. Value for n must be integer and for x, e must be double");
             System.out.printf("Input value for %s: ", name);
 
             scanner.next();
